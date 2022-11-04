@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Contoh Spesifik CSS</title>
+    <h1>Spesifik CSS</h1>
+    <style type="text/css">
+        p {
+            color: red;
+        }
+        div p{
+            color: green;
+        }
+        #aaa{
+            color: orange;
+        }
+        body div {
+            color: yellow;
+        }
+        div p.kalimat{
+            color: silver;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p id="aaa">
+            Sedang belajar CSS...
+        </p>
+    </div>
+
+
+
+    <!-- kasus spesifik CSS -->
+    <H1>Kasus Spesifik Css</H1>
+    <style type="text/css">
+        p{
+            color: red !important;
+        }
+        div p {
+            color:green;
+        }
+        #aaa{
+            color:orange;
+        }
+        body div p {
+            color:yellow;
+        }
+        div p.kalimat {
+            color:silver;
+        }
+    </style>
+
+<div>
+    <p id="aaa">
+        Sedang belajar CSS...
+    </p>
+</div>
+</body>
+</html>
+
+
