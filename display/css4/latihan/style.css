@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: lightgray;
+    min-height: 4000px;
+}
+
+.wrapper {
+    height: 300px;
+    background: rgb(62, 165, 88);
+    
+}
+
+.box-1 {
+    padding: 60px;
+    margin-left:160px;
+}
+
+img {
+    width: 350px;
+    margin-right: 0;
+    margin-top: 10px;
+}
+
+.box-2 {
+    width: 550px;
+    background: #ffffff;
+    min-height: 393px;
+    box-sizing: border-box;
+    margin-left: 350px;
+    margin-top: -398px;
+}
+
+.box-2 .judul {
+  padding-top: 35px;
+}
+
+.box-2 .judul  h4.hello {
+    width: 25%;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 30px;
+    margin-bottom: -50px;
+    padding: 7px;
+    background: rgb(87, 200, 116);
+    color: #FFFFFF;
+}
+
+.box-2 .judul  p.nama {
+    font-size: 32px;
+    font-weight: 200;
+    margin-left: 30px;
+    margin-top: 70px;
+    color: #000;
+}
+
+.box-2 .judul  p.job {
+    font-size: 26px;
+    font-weight: lighter;
+    margin-left: 30px;
+    color: rgb(161, 161, 161);
+}
+
+.garis{
+    width: 85%;
+    margin-left: 30px;
+    margin-top: 15px;
+    box-sizing: border-box;
+    border-top: 2px solid #c0c0c0;
+}
+
+.box-2 .judul  p.umur {
+    font-size: 21px;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-top: 15px;
+    color:  #000000;
+}
+
+.box-2 .judul  p.email {
+    font-size: 21px;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-top: 15px;
+    color:  #000000;
+}
+
+.box-2 .judul  p.phone {
+    font-size: 21px;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-top: 15px;
+    color:  #000000;
+}
+
+.box-2 .judul  p.website {
+    font-size: 21px;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-top: 15px;
+    color:  #000000;
+}
+
+.skills{
+  margin-top: 200px;
+}
+
+.skills h2{
+    text-align: center;
+    font-size: 32px;
+    color: rgb(35, 171, 69);
+}
+
+.box-3{
+    width: 780px;
+    padding: 60px;
+    margin-left: 220px;
+    background: #ffffff;
+    margin-top: 40px;
+    box-shadow: 0px 1px 5px red;
+}
+
+.box-3 p{
+    font-size: 21px;
+    line-height: 30px;
+    text-align: justify;
+}

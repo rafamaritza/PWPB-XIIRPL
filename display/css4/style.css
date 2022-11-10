@@ -1,0 +1,37 @@
+body{
+    background-color: lightgray;
+}
+
+.wrapper{
+    background-color: white;
+    width: 1200px;
+    height: 200% ;
+}
+
+.box-1{
+    width: 250px;
+    height: 250px;
+    background-color: lime;
+    /* untuk penuisan value ada 2:1. x y  2. atas kanan bawah kiri */
+    margin: 30px auto;  
+}
+.box-2{
+    width: 200px;
+    height: 250px;
+    background-color: rgb(115, 80, 242);
+    /* untuk penuisan value ada 2:1. x y  2. atas kanan bawah kiri */
+    /* hanya margin yang boleh menggunakan minus */
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.box-3{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(61, 112, 188);
+    /* untuk penuisan value ada 2:1. x y  2. atas kanan bawah kiri */
+    margin: 30px auto;
+    border-top: 8px solid black;
+    border-right: 8px dashed brown;
+    border-bottom: 8px dotted yellow;
+    border-left: 8px double pink;
+}
