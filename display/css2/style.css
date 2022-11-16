@@ -15,13 +15,22 @@ h2, ul, li, p {
     background-color: #cccccc;
 }
 
-ul {
-    display: block;
+/* ul { */
+    /* display block merubah framenya tetapi tdk merubah isi dari element */
+    /* display: block;
     width: 100px;
-    height: 130px
+    height: 130px */
 
-}
+/* } */
 
-ul li a{
+/* ul li a{
     size: 20px;
+} */
+
+.hati{
+    /* fungsi display none untuk menghilangkan element */
+    width: 150px;
+    height: 150px;
+    background-color: lightpink;
+    display: none;
 }
